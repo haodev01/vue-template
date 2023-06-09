@@ -2,4 +2,8 @@
   <div>Home Page User {{ $route.params.id }}</div>
 </template>
 
-<script setup lang="js"></script>
+<script>
+export default {
+  name: "UserPage",
+};
+</script>
